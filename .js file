@@ -1,0 +1,26 @@
+// This is a single-line comment in JavaScript
+
+/*
+This is a multi-line comment.
+It can span across multiple lines.
+*/
+
+// Declare a variable
+let message = "Hello from JavaScript!";
+
+// Log the message to the console
+console.log(message);
+
+// Define a function
+function greet(name) {
+  return "Hello, " + name + "!";
+}
+
+// Call the function and store the result
+let greeting = greet("World");
+
+// Log the greeting
+console.log(greeting);
+
+// Manipulate HTML elements (if running in a browser environment)
+// document.getElementById("myElement").innerHTML = "Content changed by JS!";
