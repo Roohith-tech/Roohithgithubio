@@ -1,0 +1,25 @@
+/* This is a CSS comment */
+
+/* Rule for all paragraph elements */
+p {
+  color: blue; /* Sets the text color to blue */
+  font-family: Arial, sans-serif; /* Sets the font family */
+  font-size: 16px; /* Sets the font size */
+}
+
+/* Rule for an element with the ID "header" */
+#header {
+  background-color: #f0f0f0; /* Sets the background color */
+  padding: 20px; /* Adds padding around the content */
+  text-align: center; /* Centers the text */
+}
+
+/* Rule for elements with the class "button" */
+.button {
+  display: inline-block; /* Allows setting width/height and other block properties */
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounds the corners */
+  text-decoration: none; /* Removes underline from links */
+}
